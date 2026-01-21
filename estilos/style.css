@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-/*  Fundo: #05060A
-	Card: #1A0F2E
-	Texto: #FFFFFF
-	Botão principal: #9D00FF
-	Hover: #00FFF0           */ 
+/*  Fundo da página: #F2F4F7
+    Box de login: #FFFFFF ou #D9DEE5
+    Texto: #2B2E34
+    Botão Login: #1F3A5F
+    Hover do botão: #5DA9E9           */ 
 
     * {
         padding: 0px;
@@ -13,7 +13,7 @@
     }
 
     body, html {
-        background-image: linear-gradient(to top, #6b053d, #1A0F2E);
+        background-image: linear-gradient(to top, #1A0F2E, #F2F4F7);
         height: 100vh;
         width: 100vw;
     }
@@ -23,6 +23,8 @@
         height: 100vh;
         width: 100vw;
     }
+
+
     section#login {
         position: absolute;
         top: 50%;
@@ -42,7 +44,7 @@
 
     section#login > div#imagem {
         display: block;
-        background: #05060A url(../imagens/joyr.jpg) no-repeat;
+        background: #05060A url(../imagens/bld.png) no-repeat;
         background-size: cover;
         background-position: center;
         height: 200px;
@@ -50,10 +52,40 @@
 
     section#login > div#formulario {
         display: block;
-        padding: 10px;
+        padding: 5px;
     }
 
     div#formulario > h1 {
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
+    }
+
+    .botao {
+        border: 2px solid #333;
+        padding: 3px 6px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 600;
+        display: inline-block;
+    }
+    
+    .botão:hover {
+        background-color: #333;
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .campo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .campo input {
+        margin-bottom: 4px;
+    }
+
+    #formulario p {
+        margin-bottom: 5px;
     }

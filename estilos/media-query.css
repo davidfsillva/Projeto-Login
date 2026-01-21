@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
-        background-image: linear-gradient(to top, #6b053d, #1A0F2E);
+        background-image: linear-gradient(to top, #1A0F2E, #F2F4F7);
     }
 
     section#login {
@@ -15,7 +15,7 @@
         width: 30%;
         height: 100%;
 
-        background: #05060A url(../imagens/joy1.jpg) no-repeat;
+        background: #05060A url(../imagens/bld.png) no-repeat;
         background-size: cover;
         background-position: center top;
 
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 992px) {
         body {
-        background-image: linear-gradient(to top, #6b053d, #1A0F2E);
+        background-image: linear-gradient (to top, #1A0F2E, #F2F4F7);
     }
     
     section#login {
@@ -41,7 +41,7 @@
         float: left;
         width: 50%;
         height: 100%;
-        background: #05060A url(../imagens/joy.jpg) no-repeat;
+        background: #05060A url(../imagens/bld.png) no-repeat;
         background-size: cover;
         background-position: center right
 
