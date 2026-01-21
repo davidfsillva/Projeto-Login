@@ -46,6 +46,8 @@
         background-position: center right
 
     }
-
+    .campo {
+        text-align: center;
+    }
 
 }

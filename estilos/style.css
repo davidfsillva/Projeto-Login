@@ -103,6 +103,24 @@
 
     }
 
+    div.campo > i {
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+    }
+
+    div.campo > input {
+        background-color: #35537c;
+        color: white;
+        font-size: 1em;
+        height: 100%;
+        border:0px;
+        border-radius: 8px;
+        padding: 4px;
+    }
+    
+
     form > input[type=submit] {
         display: block;
         font-size: 1em;
