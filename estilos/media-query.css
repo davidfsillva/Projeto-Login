@@ -14,15 +14,21 @@
         float: left;
         width: 30%;
         height: 100%;
+
+        background: #05060A url(../imagens/joy1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center top;
+
     }
 
     section#login > div#formulario {
         float: right;
         width: 70%;
+        text-align: center;
     }
 }
 
-@media screen and (min-widtth: 992px) {
+@media screen and (min-width: 992px) {
         body {
         background-image: linear-gradient(to top, #6b053d, #1A0F2E);
     }
@@ -35,10 +41,11 @@
         float: left;
         width: 50%;
         height: 100%;
+        background: #05060A url(../imagens/joy.jpg) no-repeat;
+        background-size: cover;
+        background-position: center right
+
     }
 
-    section#login > div#formulario {
-        float: right;
-        width: 50%;
-    }
+
 }
