@@ -13,7 +13,7 @@
     }
 
     body, html {
-        background-color: #05060A;
+        background-image: linear-gradient(to top, #6b053d, #1A0F2E);
         height: 100vh;
         width: 100vw;
     }
